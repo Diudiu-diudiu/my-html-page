@@ -1964,6 +1964,7 @@
       nameY: 368,
       nameMaxWidth: 145,
       metaY: 365,
+      identityDividerY: 382,
       greetingY: 418,
       blessingY: 446,
       blessingMaxWidth: 650,
@@ -2405,8 +2406,8 @@
       ctx.strokeStyle = "rgba(15, 77, 59, 0.16)";
       ctx.lineWidth = 1;
       ctx.beginPath();
-      ctx.moveTo(CARD_LAYOUT.bodyPaddingX, 358);
-      ctx.lineTo(640, 358);
+      ctx.moveTo(CARD_LAYOUT.bodyPaddingX, CARD_LAYOUT.identityDividerY);
+      ctx.lineTo(640, CARD_LAYOUT.identityDividerY);
       ctx.stroke();
 
       ctx.fillStyle = "#33433d";
